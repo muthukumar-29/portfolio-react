@@ -73,6 +73,9 @@
 
     .media img {
         margin-left: 15px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 10px;
     }
 }
 
@@ -99,6 +102,9 @@
 
     .media img {
         margin-left: 15px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 10px;
     }
 }
 
@@ -110,5 +116,11 @@
     .info img{
         width: 20px;
         height: 20px;
+    }
+
+    .media img {
+        padding: 5px;
+        background-color: white;
+        border-radius: 10px;
     }
 }
