@@ -1,0 +1,102 @@
+.contact {
+    background-color: #141E46;
+    padding: 30px;
+    color: white;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    padding: 0 0 40px 10px;
+}
+
+.info img {
+    padding: 5px;
+    margin-left: 200px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.info span {
+    margin: 10px 0 0 10px;
+}
+
+.media {
+    text-align: center;
+}
+
+.media img {
+    margin-left: 60px;
+    padding: 5px;
+}
+
+.media img:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media (max-width:376px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        padding: 10px 0 0 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info img{
+        margin-left: 0;
+    }
+
+    .info span{
+        font-size: 15px;
+    }
+
+    .media img {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:426px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        padding: 10px 0 0 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info img{
+        margin-left: 0;
+    }
+
+    .info span{
+        font-size: 15px;
+    }
+
+    .media img {
+        margin-left: 15px;
+    }
+}

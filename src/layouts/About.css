@@ -1,0 +1,14 @@
+.about{
+    text-align: center;
+}
+.about h1{
+    text-align: center;
+}
+
+.about p{
+    padding: 15px;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+}
