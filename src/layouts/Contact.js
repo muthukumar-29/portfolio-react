@@ -31,7 +31,7 @@ const Contact = () => {
             </div>
             <br></br><br></br>
             <div className='copyright'>
-                © 2024, Muthukumar M, All Right Reserved
+                © 2024, Muthukumar M,<br></br> All Right Reserved
             </div>
         </div>
     )
