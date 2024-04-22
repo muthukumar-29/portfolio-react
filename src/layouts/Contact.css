@@ -49,6 +49,7 @@
     text-align: center;
 }
 
+
 @media (max-width:376px) {
     .footer{
         display: flex;
@@ -98,5 +99,11 @@
 
     .media img {
         margin-left: 15px;
+    }
+}
+
+@media (max-width:321px) {
+    .info span{
+        font-size: 12px;
     }
 }
